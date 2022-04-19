@@ -49,13 +49,6 @@ Let's add two items split evenly into the grid.  The class <code>grid-xs-6</code
 
 The '**xs**' means that the class should apply for extra-small devices and up.
 
-<div class="example-container">
-    <div class="grid-container">
-        <div class="grid-xs-6 p-2" style="background-color:red;color:white">first half</div>
-        <div class="grid-xs-6 p-2" style="background-color:green;color:white;">second half</div>
-    </div>
-</div>
-
 ```html
 <div class="grid-container">
     <div class="grid-xs-6">first half</div>
@@ -109,14 +102,6 @@ The class <code>grid-sm-6</code> tells the div to spread out across 6 of the gri
 The first div is specified to always be 12 columns wide.
 
 It is worth noting that with this grid system there is no need for a 'row' class
-
-<div class="example-container">
-    <div class="grid-container">
-        <div class="grid-xs-12 p-2" style="background-color:silver;color:black">always full width</div>
-        <div class="grid-xs-12 grid-sm-6 p-2" style="background-color:red;color:white">split 50/50 on tablet + desktop</div>
-        <div class="grid-xs-12 grid-sm-6 p-2" style="background-color:green;color:white;">split 50/50 on tablet + desktop</div>
-    </div>
-</div>
 
 ```html
 <div class="grid-container">
